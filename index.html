@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Nav Test</title>
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+	<!-- CSS -->
+	<link rel="stylesheet" href="/styles/stylesheet.css" type="text/css" />
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Karla:400,700|Martel:400,700" rel="stylesheet" />
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+		integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
+	<!-- JS  -->
+	<script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+		crossorigin="anonymous"></script>
+	<script defer src="/script/script.js"></script>
+</head>
+
+<body id="home">
+	<!-- SIDE NAV -->
+	<header>
+		<nav class="container">
+			<div class="nav__head">
+				<img class="nav__image" src="./assets/images/harry.jpg" width="40" height="40" />
+				<p class="header__name">
+					Harry <br />
+					Gardiner<span id="nameDot"></span>
+				</p>
+			</div>
+
+			<ul class="links">
+				<li>
+					<a href="#about" class="link active">
+						<i class="fa fa-user"></i>
+						About
+					</a>
+				</li>
+				<li>
+					<a href="#skills" class="link">
+						<i class="fa fa-tools"></i>
+						Skills
+					</a>
+				</li>
+				<li>
+					<a href="#projects" class="link">
+						<i class="fa fa-th-large"></i>
+						Projects
+					</a>
+				</li>
+				<li>
+					<a href="#contact" class="link">
+						<i class="fa fa-file-signature"></i>
+						Contact
+					</a>
+				</li>
+			</ul>
+
+			<div class="social__menu">
+				<ul>
+					<li>
+						<a href="https://www.linkedin.com/in/harry-gardiner-795b2178/" target="_blank"><i
+								class="fab fa-linkedin-in"></i></a>
+					</li>
+					<li>
+						<a href="https://github.com/Harry-Gardiner" target="_blank"><i class="fab fa-github"></i></a>
+					</li>
+					<li>
+						<a href="assets\CV_developer_harry_gardiner.docx"><i class="fas fa-file-download" download>
+								CV</i></a>
+					</li>
+				</ul>
+			</div>
+
+			<footer>&copy;2020 Harry Gardiner</footer>
+		</nav>
+	</header>
+
+	<!-- MINI NAV -->
+	<nav class="navbar">
+		<div class="navFlag">
+			<img class="nav__image" src="./assets/images/harry.jpg" width="40" height="40" />
+			<span class="nav__name navbar-brand mr-auto">
+				Harry Gardiner<span id="nameDot"></span>
+			</span>
+		</div>
+
+		<ul>
+			<li>
+				<a href="#about">
+					About
+				</a>
+			</li>
+			<li>
+				<a href="#skills">
+					Skills
+				</a>
+			</li>
+			<li>
+				<a href="#projects">
+					Projects
+				</a>
+			</li>
+			<li>
+				<a href="#contact">
+					Contact
+				</a>
+			</li>
+		</ul>
+
+	</nav>
+
+	<main>
+		<div id="about" class="rem3 scrollTo"></div>
+		<!-- ABOUT -->
+		<section class="panel panel--blue about">
+			<div class="overlay"></div>
+			<div class="container">
+				<h1 class="header__name">
+					I'm Harry Gardiner<span id="nameDotLrg"></span>
+				</h1>
+				<div>
+					<p>
+						Graudate of the DevelopMe_ full stack coding fellowship.
+					</p>
+					<p>
+						Currently on the lookout for my first role, where I can
+						continue
+						my forward momentum into the world of tech.
+					</p>
+				</div>
+			</div>
+		</section>
+		<!-- SKILLS -->
+		<div id="skills" class="rem2 scrollTo"></div>
+		<section class="panel panel--white">
+			<h2>Skills</h2>
+			<div class="wrapperRow">
+				<ul class="list-group skillGroup">
+					<h3>Core skills<span id="nameDot"></span></h3>
+					<li class="skills__listitem">HTML \ CSS \ Javascript</li>
+					<li class="skills__listitem">SASS \ Bootstrap</li>
+					<li class="skills__listitem">React \ Redux</li>
+					<li class="skills__listitem">PHP \ MySQL \ Laravel</li>
+				</ul>
+				<ul class="list-group skillGroup">
+					<h3>Tools and methods<span id="nameDot"></span></h3>
+					<li class="skills__listitem">Github \ Git</li>
+					<li class="skills__listitem">Vagrant \ Command line</li>
+					<li class="skills__listitem">Gulp \ npm</li>
+					<li class="skills__listitem">Wireframing</li>
+					<li class="skills__listitem">Test driven development</li>
+					<li class="skills__listitem">Pair programming</li>
+				</ul>
+				<ul class="list-group skillGroup">
+					<h3>General<span id="nameDot"></span></h3>
+					<li class="skills__listitem">Customer service</li>
+					<li class="skills__listitem">Data integrity</li>
+					<li class="skills__listitem">Quick Learner</li>
+					<li class="skills__listitem">International experience</li>
+				</ul>
+			</div>
+		</section>
+		<!-- PROJECTS -->
+		<div id="projects" class="rem2 scrollTo"></div>
+		<section class="panel panel--white">
+			<h2>Projects</h2>
+			<div class="cardWrapper">
+				<div class="card">
+					<img class="card-img-top" src="./assets/images/sortedtall.jpg" alt="Card image cap">
+					<div class="card-body">
+						<h3 class="card-title">Sort-it</h3>
+						<p class="card-text bold">
+							React Redux
+						</p>
+						<p class="card-text">
+							Football team picking app. User can customise team size, add
+							players, select player skill, draw players randomly or by skill, customise kit, enter team
+							name and reveal bookies favourite. Created as part of the DevelopMe coding boot camp
+							"Individual technical challenge".
+						</p>
+						<a class="github" href="https://github.com/Harry-Gardiner/Sort-it-team-picker" target="_blank">
+							<i class="fab fa-github"></i>
+						</a>
+					</div>
+				</div>
+				<div class="card">
+					<img class="card-img-top" src="./assets/images/prowlr.jpg" alt="Card image cap">
+					<div class="card-body">
+						<h3 class="card-title">Prowlr</h5>
+							<p class="card-text bold">
+								React Redux | Laravel
+							</p>
+							<p class="card-text">
+								Animal dating app. Profile based app, where the user likes/dislikes an
+								image. The backend keeps track of likes/dislikes for each profile.
+								A list of ranked profiles (based on percentage of likes) can be accessed by viewing all
+								profiles in order or clicking "see top
+								picks".
+							</p>
+							<a class="github" href="https://github.com/Harry-Gardiner/prowlr-front-end" target="_blank">
+								<i class="fab fa-github"></i>
+							</a>
+					</div>
+				</div>
+				<!-- <div class="card">
+					<img class="card-img-top" src="./images/project.jpg" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Project 3</h5>
+						<p class="card-text">Some quick example text to build on the card title and make up the bulk of
+							the card's content.</p>
+						<a class="github" href=""><i class="fab fa-github"></i></a>
+					</div>
+				</div> -->
+			</div>
+		</section>
+		<!-- CONTACT -->
+		<div id="contact" class="rem2 scrollTo"></div>
+		<section class="panel panel--blue contact">
+			<h2>Contact</h2>
+			<ul>
+				<li>
+					Email:
+					<a href="mailto:gardiner_harry@yahoo.com">Gardiner_harry@yahoo.com</a>
+				</li>
+				<li>
+					LinkedIn:
+					<a href="https://www.linkedin.com/in/harry-gardiner-795b2178/"
+						target="_blank">linkedin.com/in/harry-gardiner-795b2178/</a>
+				</li>
+				<li>
+					Github:
+					<a href="https://github.com/Harry-Gardiner" target="_blank">github.com/Harry-Gardiner</a>
+				</li>
+				<li>
+					CV:
+					<a href="assets\CV_developer_harry_gardiner.docx">document.docx</a>
+				</li>
+			</ul>
+		</section>
+
+	</main>
+</body>
+
+</html>

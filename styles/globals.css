@@ -1,0 +1,97 @@
+/* ---------	GlOBALS		------------ */
+:root {
+	--White: #fff;
+	--Black: #000;
+	--bgColor: #f6f7ff;
+	--cardColor: #4a63e7;
+	--salmon: #ff5959;
+	--blue: #4a63e7;
+	--font: 'Asap', sans-serif; 
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: var(--font);
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 3.75rem;
+}
+
+h2 {
+	font-size: 1.8rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+body {
+	font-family: var(--font);
+	font-weight: 400;
+	background-color: var(--bgColor);
+	width: 85%;
+	min-width: 500px;
+	margin: 0 auto;
+}
+
+.rem2 {
+	height: 2rem;
+}
+
+.rem3 {
+	height: 3rem;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+ul li:hover {
+	text-decoration: none;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	padding: 2%;
+}
+
+.wrapperRow {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 2rem;
+}
+
+.pattern-description {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* -------------------- # ID -------------------------- */
+
+#nameDot {
+	height: 6px;
+	width: 6px;
+	background-color: var(--salmon);
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+#nameDotLrg {
+	height: 10px;
+	width: 10px;
+	background-color: var(--salmon);
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: 5px;
+}

@@ -1,0 +1,19 @@
+.contact {
+    margin-bottom: 2rem;
+}
+
+.contact ul {
+    text-align: center;
+}
+
+.contact li {
+    padding: 1rem;
+    color: var(--salmon);
+}
+
+.contact a {
+    text-decoration: underline;
+    color: var(--white);
+}
+
+

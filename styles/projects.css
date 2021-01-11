@@ -1,0 +1,57 @@
+/* -------------	PROJECT CARD	------------- */
+.cardWrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding-top: 2rem;
+}
+
+.card {
+	border: none;
+	color: var(--white);
+	position: relative;
+	overflow: hidden;
+	border-radius: 20px;
+	height: auto;
+	max-width: 48%;
+	margin: 1rem 0.5rem;
+}
+
+.card-body {
+	text-align: center;
+	background-color: var(--blue);
+	z-index: 1;
+}
+
+.card img {
+	transition: all 1s ease;
+	object-fit: contain;
+}
+
+.card p, a {
+	padding-bottom: 0.5rem;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.card:hover .card-img-overlay {
+	margin-top: 0%;
+	transition: all 0.8s ease;
+	padding: 5% 20%;
+}
+
+.card:hover img {
+	transform: scale(1.1);
+	transition: all 1s ease;
+}
+
+/* ---------   MEDIA QUERIES   -------------- */
+
+@media only screen and (max-width: 1410px) {
+	.card {
+	  max-width: 100%;
+	  margin: 1rem 0;
+	}
+}

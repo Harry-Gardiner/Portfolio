@@ -1,0 +1,46 @@
+/* ---------	PANEL TEMPLATE		---------- */
+.panel {
+	height: auto;
+	border-radius: 20px;
+	background-color: var(--White);
+	/* color: var(--Black); */
+	box-shadow: 0px 6px 15px 0px #595959;
+}
+
+.panel--blue {
+	padding: 2rem;
+	background-color: var(--cardColor);
+	color: var(--White);
+}
+
+.panel--white {
+	padding: 3rem;
+}
+
+.panel--white h3 {
+	padding-bottom: 1rem;
+}
+
+.panel--white ul {
+	list-style: none;
+	padding: 1rem;
+	border: 1px solid var(--salmon);
+	margin: 0 1rem;
+	border-radius: 20px;
+}
+
+.panel--white ul li {
+	padding: 0.5rem 0;
+}
+
+/* -------------	PANEL HEADER 	----------------- */
+section h2::after {
+	content: "";
+	background: var(--salmon);
+	border-radius: 25px;
+	/* display block drops it below h3 element */
+	display: block;
+	height: 5px;
+	margin-top: 0.5rem;
+	width: 30px;
+}
