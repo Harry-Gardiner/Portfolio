@@ -1,28 +1,45 @@
 .about {
-    background-image: url('../assets/images/laptop.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    min-height: 40rem;
-    position: relative;
+	background-image: url("../assets/images/laptop.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 40rem;
+	position: relative;
 }
 
 .about h1 {
-    padding-bottom: 1rem;
+	padding-bottom: 1rem;
 }
 
 .about .container {
-    padding: 4rem;
-    position: absolute;
+	padding: 4rem;
+	position: absolute;
 }
 
 /* laptop image overlay, but appears behind about content */
 .overlay {
-    width: 100%;
-    height: 100%;
-    background: var(--cardColor);
-    border-radius: 20px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    opacity: 0.9;
+	width: 100%;
+	height: 100%;
+	background: var(--cardColor);
+	border-radius: 20px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0.95;
+}
+
+/* code image */
+.codeTxt {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 3rem;
+}
+
+.codeTxt p {
+	/* letter-spacing: 4px; */
+	font-size: 1.8rem;
+	line-height: normal;
+}
+
+.blueCode {
+	color: var(--salmon);
 }
