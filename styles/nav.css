@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	display: grid; 
+	display: grid;
 	grid-template-columns: min-content 1fr;
 }
 
@@ -88,7 +88,7 @@ footer {
 }
 
 .nav__image {
-	border-radius: var(--radius);
+	border-radius: 50%;
 }
 
 .nav__name {
@@ -103,12 +103,12 @@ footer {
 	display: flex;
 }
 
-.navbar ul{
+.navbar ul {
 	display: flex;
 	padding-left: 2.6rem;
 }
 
-.navbar ul li{
+.navbar ul li {
 	padding: 0 1rem;
 }
 
@@ -132,7 +132,7 @@ footer {
 
 	main {
 		padding-top: 0;
-	};
+	}
 }
 
 @media (min-height: 300px) {
