@@ -20,7 +20,7 @@ window.addEventListener('scroll', event => {
 
 // Active contact on reaching bottom of webpage via scroll
 window.onscroll = () => {
-    if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
+    if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight - 1) {
         let footer = document.querySelectorAll('nav ul li a.link')[3];
         let project = document.querySelectorAll('nav ul li a.link')[2];
         footer.classList.add('active');

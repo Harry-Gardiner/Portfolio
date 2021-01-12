@@ -12,7 +12,6 @@
 	position: relative;
 	overflow: hidden;
 	border-radius: 20px;
-	height: auto;
 	max-width: 48%;
 	margin: 1rem 0.5rem;
 }
@@ -28,8 +27,18 @@
 	object-fit: contain;
 }
 
-.card p, a {
+.card p,
+a {
 	padding-bottom: 0.5rem;
+}
+
+.card a {
+	text-decoration: none;
+	color: var(--salmon);
+}
+
+.card a:hover {
+	text-decoration: underline;
 }
 
 .bold {
@@ -51,7 +60,7 @@
 
 @media only screen and (max-width: 1410px) {
 	.card {
-	  max-width: 100%;
-	  margin: 1rem 0;
+		max-width: 100%;
+		margin: 1rem 0;
 	}
 }
